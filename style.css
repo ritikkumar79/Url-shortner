@@ -1,0 +1,118 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.background {
+  background-image: url(img/login-background.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  background-color: rgb(166, 197, 252);
+  height: 400px;
+  width: 600px;
+  display: flex;
+  position: relative;
+  right: 290px;
+  bottom: 50px;
+  padding: 22px;
+  border-radius: 0 35px 0 35px;
+  box-shadow: 10px 15px 5px rgba(114, 113, 113, 0.809);
+}
+
+.link {
+  height: 34px;
+  width: 34px;
+}
+.input_box {
+  width: 400px;
+
+  height: 40px;
+  margin-top: 12px;
+  position: relative;
+  left: 45px;
+  padding: 18px;
+  border-radius: 16px;
+}
+.magic {
+  height: 30px;
+  width: 30px;
+}
+.button {
+  background-color: rgb(35, 170, 20);
+  margin-top: 45px;
+  width: 420px;
+  border-radius: 7px;
+
+  height: 40px;
+  position: relative;
+  left: 48px;
+  border: none;
+}
+
+.main2 {
+  border: solid red 3px;
+  position: relative;
+  right: 190px;
+  height: 300px;
+  width: 450px;
+  color: rgba(245, 245, 245, 0.823);
+  padding: 16px;
+}
+.main2 h3 {
+  margin-top: 15px;
+}
+.main2 p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+footer {
+  background-color: #000;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+  position: fixed;
+  top: 96%;
+  bottom: 0;
+  width: 100%;
+}
+/*  media */
+/* Media query for smaller screens (e.g., mobile devices) */
+@media screen and (max-width: 768px) {
+  .main {
+    width: 90%; /* Adjust the width as needed */
+    right: auto; /* Reset the 'right' property */
+    bottom: auto; /* Reset the 'bottom' property */
+    margin: 0 auto; /* Center the element */
+  }
+
+  .input_box,
+  .button {
+    width: 100%; /* Make input and button full width */
+    margin: 10px 0; /* Add some spacing between elements */
+    left: auto; /* Reset the 'left' property */
+  }
+
+  .main2 {
+    width: 90%; /* Adjust the width as needed */
+    right: auto; /* Reset the 'right' property */
+  }
+}
+
+@media screen and (max-width: 1140px){
+
+  .main {
+   position: relative;
+   left: 2%;
+  }
+
+}
